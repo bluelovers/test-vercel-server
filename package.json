@@ -1,22 +1,51 @@
 {
-  "name": "with-typescript",
+  "name": "test-vercel-server",
   "version": "1.0.0",
+  "description": "This is a really simple project that shows the usage of Next.js with TypeScript.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "bluelovers",
+  "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "dev": "next",
+    "test": "echo \"Error: no test specified\"",
+    "build": "next build",
+    "vercel:dev": "ynpx vercel",
+    "npm:publish": "npm publish",
+    "npm:publish:lerna": "lerna publish --yes --bump patch",
+    "preversion": "echo preversion",
+    "prepublishOnly_": "yarn run prepublishOnly:check-bin && yarn run prepublishOnly:update && yarn run test",
+    "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
+    "prepublishOnly:update": "yarn run ncu && yarn run sort-package-json",
+    "postpublish_": "yarn run postpublish:changelog && yarn run postpublish:git:commit && yarn run postpublish:git:tag && yarn run postpublish:git:push",
+    "postpublish:changelog": "ynpx --quiet @yarn-tool/changelog && git add ./CHANGELOG.md",
+    "postpublish:git:commit": "git commit -m \"chore(release): publish\" . & echo postpublish:git:commit",
+    "postpublish:git:push": "git push --follow-tags",
+    "postpublish:git:tag": "ynpx --quiet @yarn-tool/tag",
+    "ncu": "yarn-tool ncu -u",
+    "sort-package-json": "yarn-tool sort",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@bluelovers/string-natural-compare": "^1.1.2",
+    "@demonovel/local-or-rebuild-file": "^1.0.3",
+    "@lazy-lotto/tw-history-data": "^1.0.4",
+    "@lazy-lotto/types": "^1.0.2",
+    "@lazy-lotto/util": "^1.0.1",
+    "fill-range": "^7.0.1",
+    "next": "canary",
+    "random-lotto": "^1.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.3.0",
+    "tmp": "^0.2.1"
   },
   "devDependencies": {
-    "@types/node": "^12.12.21",
-    "@types/react": "^16.9.16",
-    "@types/react-dom": "^16.9.4",
-    "typescript": "3.7.3"
-  },
-  "license": "ISC"
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "@types/tmp": "^0.2.0",
+    "typescript": "next"
+  }
 }

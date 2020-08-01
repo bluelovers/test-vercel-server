@@ -11,12 +11,16 @@
     "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+
+    "emitDecoratorMetadata": true,
+
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2019"
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
