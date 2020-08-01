@@ -1,0 +1,18 @@
+.current
+{
+	width: 100%;
+}
+
+.current td
+{
+	width: 3em;
+	border-radius: 1em;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+.current .sp
+{
+	background-color: green;
+}

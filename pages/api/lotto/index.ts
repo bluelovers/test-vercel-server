@@ -39,7 +39,7 @@ export function getWeightTable<T extends IRecordRow<any[]> = IRecordRow<IResultS
 			row.result[0].forEach(v =>
 			{
 				// @ts-ignore
-				a[0][v] ??= 1;
+				a[0][v] = a[0][v] || 0;
 				// @ts-ignore
 				a[0][v]++;
 			})
@@ -49,7 +49,7 @@ export function getWeightTable<T extends IRecordRow<any[]> = IRecordRow<IResultS
 			let v2 = row.result[1];
 
 			// @ts-ignore
-			a[1][v2] ??= 1;
+			a[1][v2] = a[1][v2] || 0;
 			// @ts-ignore
 			a[1][v2]++;
 
@@ -114,8 +114,8 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
 				return naturalCompare(a[1], b[1])
 			})
 
-			console.dir(kwlist)
-			console.dir(vlist)
+			//console.dir(kwlist)
+			//console.dir(vlist)
 
 			return argv
 		},
@@ -182,9 +182,18 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
 
 	})
 
+	let limit = (_req.query as any).limit | 0;
+	if (limit <= 0) limit = 5;
+
+	let list_pick = random.itemByWeightUnique(list, limit, {
+		getWeight: (m) => 1,
+		shuffle: true,
+	}).map(v => v[1])
+
 	res.status(200).json({
 		historyTop,
-		list,
+		list_pick,
+		//list,
 	})
 }
 
