@@ -1045,6 +1045,11 @@
   dependencies:
     "@lazy-lotto/types" "^1.0.2"
 
+"@lazy-react/react-suspense@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@lazy-react/react-suspense/-/react-suspense-1.0.1.tgz#65faf18d2b88026cbf16704ea1453ccf40121f00"
+  integrity sha512-Lz1KtJL2c1/yvaGyIBnB/tWV3Tn64ES8+MJDkVyW3j4F1JceNi794RV8/D5Dc7DKqOO7m0afUZbdmCBjojFmlA==
+
 "@next/react-dev-overlay@9.5.2-canary.1":
   version "9.5.2-canary.1"
   resolved "https://registry.npmjs.org/@next/react-dev-overlay/-/react-dev-overlay-9.5.2-canary.1.tgz#1ac1a6987435f90c192cec6bce2f89667533fd37"

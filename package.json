@@ -33,6 +33,7 @@
     "@lazy-lotto/tw-history-data": "^1.0.4",
     "@lazy-lotto/types": "^1.0.2",
     "@lazy-lotto/util": "^1.0.1",
+    "@lazy-react/react-suspense": "^1.0.1",
     "fill-range": "^7.0.1",
     "next": "canary",
     "random-lotto": "^1.0.3",
