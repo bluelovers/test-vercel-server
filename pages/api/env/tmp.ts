@@ -4,7 +4,8 @@ import { promises as fs, constants } from 'fs';
 import { dirname } from 'path';
 import os from 'os';
 
-const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (_req: NextApiRequest, res: NextApiResponse) =>
+{
 
 	const tmpobj = tmp.dirSync();
 

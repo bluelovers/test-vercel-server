@@ -24,7 +24,8 @@ export async function getLottoData<T>(type: string)
 	return json as any as T
 }
 
-const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (_req: NextApiRequest, res: NextApiResponse) =>
+{
 	return res.status(200).json(await getLottoData((_req.query as any)?.type))
 }
 

@@ -1,7 +1,9 @@
 import React, { PropsWithChildren, ReactNode } from 'react';
 import LottoItem from './LottoItem';
 
-export default (prop: PropsWithChildren<{
+export default LottoList
+
+function LottoList(prop: PropsWithChildren<{
 	list: {
 		"current": number[],
 		"match": number,
@@ -11,13 +13,13 @@ export default (prop: PropsWithChildren<{
 		},
 		"sp": number
 	}[]
-}>) =>
+}>)
 {
 	return <>
 		<table>
-		{
-			prop.list.map(row => <LottoItem row={row}/>)
-		}
+			{
+				prop.list.map(row => <LottoItem row={row} />)
+			}
 		</table>
 	</>
 }

@@ -1,18 +1,15 @@
-import React from 'react'
-import Link from 'next/link'
-
+import React, { forwardRef, PropsWithChildren } from 'react'
 import { User } from '../interfaces'
+import NextMuiLink from '@lazy-react/next-mui-link';
 
 type Props = {
-  data: User
+	data: User
 }
 
 const ListItem = ({ data }: Props) => (
-  <Link href="/users/[id]" as={`/users/${data.id}`}>
-    <a>
-      {data.id}: {data.name}
-    </a>
-  </Link>
+	<NextMuiLink href="/users/[id]" as={`/users/${data.id}`}>
+		<a>{data.id}: {data.name}</a>
+	</NextMuiLink>
 )
 
 export default ListItem

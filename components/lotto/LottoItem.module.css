@@ -7,12 +7,12 @@
 {
 	width: 3em;
 	border-radius: 1em;
-	background-color: red;
+	background-color: #ff000025;
 	color: white;
 	text-align: center;
 }
 
 .current .sp
 {
-	background-color: green;
+	background-color: #00800025;
 }

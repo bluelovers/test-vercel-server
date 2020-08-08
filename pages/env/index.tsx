@@ -13,5 +13,7 @@ export default (prop: PropsWithChildren<{
 	if (error) return <div>Failed to load users</div>
 	if (!data) return <div>Loading...</div>
 
-	return <><pre>{JSON.stringify(data, null, 2)}</pre></>
+	return <>
+		<pre>{JSON.stringify(data, null, 2)}</pre>
+	</>
 }

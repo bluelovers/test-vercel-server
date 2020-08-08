@@ -6,6 +6,8 @@ import LottoList from '../../components/lotto/LottoList';
 import Layout from '../../components/Layout';
 import styles from './index.module.css'
 import ReactSuspense from '@lazy-react/react-suspense';
+import { Button } from '@material-ui/core';
+import Typography from '@material-ui/core/Typography';
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
@@ -24,19 +26,23 @@ const ShowLotto = () =>
 			<LottoList list={data.list_pick}></LottoList>
 		</div>
 		<div className={styles.area}>
-			<button onClick={() => mutate('/api/lotto')}>reload</button>
+			<Button variant="contained" color="secondary" onClick={() => mutate('/api/lotto')}>reload</Button>
 		</div>
 		<div className={styles.area}>
-			<pre>{JSON.stringify(data, null, 2)}</pre>
+			<Typography component="pre">
+				{JSON.stringify(data, null, 2)}
+			</Typography>
 		</div>
 	</>
 }
 
 const Loading = () => <div>loading...</div>;
 
-export default (prop: PropsWithChildren<{
+export default LottoPage
+
+function LottoPage(prop: PropsWithChildren<{
 	env: any
-}>) =>
+}>)
 {
 	return <>
 		<Layout

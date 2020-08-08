@@ -80,7 +80,8 @@ export function getWeightTable<T extends IRecordRow<any[]> = IRecordRow<IResultS
 	}
 }
 
-const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (_req: NextApiRequest, res: NextApiResponse) =>
+{
 
 	let type = (_req.query as any)?.type ?? `superlotto638`;
 
@@ -110,7 +111,8 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
 		{
 			let { vlist, kwlist } = _calcWeight(options.random as any, argv[0], argv[2]);
 
-			vlist.sort((a, b) => {
+			vlist.sort((a, b) =>
+			{
 				return naturalCompare(a[1], b[1])
 			})
 
@@ -148,11 +150,19 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
 						delete historyRow.ids[3]
 
 						// @ts-ignore
-						historyTop.push([index, current, historyRow.result[1], historyRow.date, historyRow.id, historyRow.dates, historyRow.ids])
+						historyTop.push([
+							index,
+							current,
+							historyRow.result[1],
+							historyRow.date,
+							historyRow.id,
+							historyRow.dates,
+							historyRow.ids,
+						])
 					}
 
 					return defaultSimpleMatchInFilter(m, index, options, current, historyRow, ...argv)
-				}
+				},
 			})
 
 			if (m !== void 0)
