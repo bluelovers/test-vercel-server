@@ -1050,18 +1050,18 @@
   dependencies:
     "@lazy-lotto/types" "^1.0.2"
 
-"@lazy-react/next-mui-link@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@lazy-react/next-mui-link/-/next-mui-link-1.0.2.tgz#78c6d2bedaab3d2048068772fdad445549210b50"
-  integrity sha512-ISTupnP71ZYacbhMtgzNRW+PUP1PTJi+BzZymtHFccjrmCkxHQrVkuw/XwLl+X1v2+MmpWgAifwDRPW7NebdZw==
+"@lazy-react/next-mui-link@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/@lazy-react/next-mui-link/-/next-mui-link-1.0.4.tgz#1ba02bd88fd0b2b883ffdf33d5c479b01a2a6256"
+  integrity sha512-04yYGbGyxPgpstZDLnMd20yFsQblHoyEr2IwgIituDH6cFn/i9zuCXZNzSbK/X+LERjL/Aone9QrwK5+LNL4KA==
 
-"@lazy-react/prefers-light-mode@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@lazy-react/prefers-light-mode/-/prefers-light-mode-1.0.3.tgz#895e761bd3822823243021f2595bbc80d25cce5c"
-  integrity sha512-dI+CnC3AqNB3VershF34MT+BHsIZTDSI8Kx0+8SFRWZlMrNr+YEzchQo4/TRUBlIeYUqmRj68u7Wo+An2q2k5w==
+"@lazy-react/prefers-light-mode@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/@lazy-react/prefers-light-mode/-/prefers-light-mode-1.0.6.tgz#8858c3b675c10eb788052cbe529f55064e062903"
+  integrity sha512-lb1TZi8Dpm2F9ADo/kB6utr9tCJbVqkoL7T/fTHAc0wBxTjsDawtomsMSlLeZnt0pkyX4I2ByUx4nolTnnicVQ==
   dependencies:
     lodash "^4"
-    material-ui-theme-state "^1.0.18"
+    material-ui-theme-state "^1.0.22"
 
 "@lazy-react/react-suspense@^1.0.2":
   version "1.0.2"
@@ -3813,10 +3813,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-ui-theme-state@^1.0.18:
-  version "1.0.18"
-  resolved "https://registry.npmjs.org/material-ui-theme-state/-/material-ui-theme-state-1.0.18.tgz#b7fd083925d333e8fdfe734613b9841fc3952e1f"
-  integrity sha512-PbVeCukZs+Mgh/PQeUp8zax3iBFIQwEgv+Ah6qA7BDxVyI7Fi+AaPTm8az/sfJxJQm+38vrhZBP50/wJXwv9rA==
+material-ui-theme-state@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.npmjs.org/material-ui-theme-state/-/material-ui-theme-state-1.0.22.tgz#4758d7f6842dead2b16f1c6c5ec16c7490a44124"
+  integrity sha512-+FTVmdg56RAEMljjp7qT3py8NkFXODpbUREpOrEWMPk8e3XvugbRcKGxhmm1jk/GxGhDDFUPEVeeNdmErAm2kQ==
   dependencies:
     ts-type "^1.2.32"
 
