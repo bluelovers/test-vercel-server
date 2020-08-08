@@ -156,7 +156,9 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) =>
 							historyRow.result[1],
 							historyRow.date,
 							historyRow.id,
+							// @ts-ignore
 							historyRow.dates,
+							// @ts-ignore
 							historyRow.ids,
 						])
 					}
