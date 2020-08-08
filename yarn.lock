@@ -1033,10 +1033,10 @@
   resolved "https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@lazy-lotto/tw-history-data@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/@lazy-lotto/tw-history-data/-/tw-history-data-1.0.4.tgz#377b79d16c90b9238b93886f66722dd64cc2c0c4"
-  integrity sha512-FIlkD7fPrG8WWWySkdBjcXjI/uXNa+5xbqWoYUtYniW++GqJJZQ3jQMzr/yw8GIIjIc685oGP2mwa5XyVrvBxw==
+"@lazy-lotto/tw-history-data@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@lazy-lotto/tw-history-data/-/tw-history-data-1.0.5.tgz#9ded8689b8babdd5e9beec04480890558eabf57a"
+  integrity sha512-5WkWXlLSZsV3SILkg9xLcvcb8vgJV7Essq3VH4uzxEWabC9ZMfsj5D8WykuWA9WZltusjmkPjt3HZwbuLmMPbg==
 
 "@lazy-lotto/types@^1.0.2":
   version "1.0.2"
@@ -1050,7 +1050,7 @@
   dependencies:
     "@lazy-lotto/types" "^1.0.2"
 
-"@lazy-react/next-mui-link@1":
+"@lazy-react/next-mui-link@^1.0.2":
   version "1.0.2"
   resolved "https://registry.npmjs.org/@lazy-react/next-mui-link/-/next-mui-link-1.0.2.tgz#78c6d2bedaab3d2048068772fdad445549210b50"
   integrity sha512-ISTupnP71ZYacbhMtgzNRW+PUP1PTJi+BzZymtHFccjrmCkxHQrVkuw/XwLl+X1v2+MmpWgAifwDRPW7NebdZw==
@@ -1063,10 +1063,10 @@
     lodash "^4"
     material-ui-theme-state "^1.0.18"
 
-"@lazy-react/react-suspense@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@lazy-react/react-suspense/-/react-suspense-1.0.1.tgz#65faf18d2b88026cbf16704ea1453ccf40121f00"
-  integrity sha512-Lz1KtJL2c1/yvaGyIBnB/tWV3Tn64ES8+MJDkVyW3j4F1JceNi794RV8/D5Dc7DKqOO7m0afUZbdmCBjojFmlA==
+"@lazy-react/react-suspense@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/@lazy-react/react-suspense/-/react-suspense-1.0.2.tgz#59a1d7b31c56cdda21a1b8de2d196e988225ec8c"
+  integrity sha512-ttrFpjUEbsVfJrD0UHUKtIf1q/wyE52gdDWrwtE8VT5tAjXnIW4ihF4zswp3pPWPV8GVNt9bv+KxuIY+6SsuXw==
 
 "@material-ui/core@^4.11.0":
   version "4.11.0"
@@ -1199,10 +1199,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.44":
-  version "16.9.44"
-  resolved "https://registry.npmjs.org/@types/react/-/react-16.9.44.tgz#da84b179c031aef67dc92c33bd3401f1da2fa3bc"
-  integrity sha512-BtLoJrXdW8DVZauKP+bY4Kmiq7ubcJq+H/aCpRfvPF7RAT3RwR73Sg8szdc2YasbAlWBDrQ6Q+AFM0KwtQY+WQ==
+"@types/react@*", "@types/react@^16.9.45":
+  version "16.9.45"
+  resolved "https://registry.npmjs.org/@types/react/-/react-16.9.45.tgz#b43ccf3d8a3d2020e6a48c8c8492e5a4bc10f097"
+  integrity sha512-vv950slTF5UZ5eDOf13b8qC1SD4rTvkqg3HfaUKzr17U97oeJZAa+dUaIHn0QoOJflNTIt6Pem9MmapULs9dkA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
