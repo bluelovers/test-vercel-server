@@ -1055,10 +1055,10 @@
   resolved "https://registry.npmjs.org/@lazy-react/next-mui-link/-/next-mui-link-1.0.2.tgz#78c6d2bedaab3d2048068772fdad445549210b50"
   integrity sha512-ISTupnP71ZYacbhMtgzNRW+PUP1PTJi+BzZymtHFccjrmCkxHQrVkuw/XwLl+X1v2+MmpWgAifwDRPW7NebdZw==
 
-"@lazy-react/prefers-light-mode@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@lazy-react/prefers-light-mode/-/prefers-light-mode-1.0.2.tgz#4c7aeba2369aebd36683a1a319c0d370278971aa"
-  integrity sha512-TricG4f/8jQSE4u7YuCX3gQGva/wl3LwMSst/Nhnv3Dfo9TMQmOB4AZPgTKyiS/abpKuKOxJMPyEYqcpYUEPng==
+"@lazy-react/prefers-light-mode@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@lazy-react/prefers-light-mode/-/prefers-light-mode-1.0.3.tgz#895e761bd3822823243021f2595bbc80d25cce5c"
+  integrity sha512-dI+CnC3AqNB3VershF34MT+BHsIZTDSI8Kx0+8SFRWZlMrNr+YEzchQo4/TRUBlIeYUqmRj68u7Wo+An2q2k5w==
   dependencies:
     lodash "^4"
     material-ui-theme-state "^1.0.18"
