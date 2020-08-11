@@ -32,7 +32,7 @@
     "@demonovel/local-or-rebuild-file": "^1.0.3",
     "@lazy-lotto/tw-history-data": "^1.0.6",
     "@lazy-lotto/types": "^1.0.2",
-    "@lazy-lotto/util": "^1.0.2",
+    "@lazy-lotto/util": "^1.0.3",
     "@lazy-react/next-mui-link": "^1.0.4",
     "@lazy-react/prefers-light-mode": "^1.0.6",
     "@lazy-react/react-suspense": "^1.0.2",

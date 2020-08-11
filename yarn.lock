@@ -1043,10 +1043,10 @@
   resolved "https://registry.npmjs.org/@lazy-lotto/types/-/types-1.0.2.tgz#ee79a75e3c834e3e9a89d5fd0b141efb75259fa2"
   integrity sha512-4LnsBli5Fh/6Oiir86U8SCxv0dtDtpH1tKvVGWRqcaWJsVcIsf8+/3aulqlEvoRCwkdGrDv9EZr0I3aybT9V3w==
 
-"@lazy-lotto/util@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@lazy-lotto/util/-/util-1.0.2.tgz#a94b7ef8e0d782e53c727fe86c9f983286f46258"
-  integrity sha512-noGyfGFq7KV8dnG/1MnNdKVuNr0lq/e0o292NpATuC1x+6iCXE6Yfplsu59q89RBbF8+2M8/5KcDGaoVfkBnVg==
+"@lazy-lotto/util@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@lazy-lotto/util/-/util-1.0.3.tgz#46b4fa7a652498d10f9ff59938d830c21cb6a0fb"
+  integrity sha512-HDYZRts3IsEyyMLZT4y3pszBa3lyGyNXb92chel3iEHpN0QWwaTR+y1JuIsgO3phGH/2iho0agyCITorc+IvXQ==
   dependencies:
     "@lazy-lotto/types" "^1.0.2"
 
