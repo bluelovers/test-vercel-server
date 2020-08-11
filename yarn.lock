@@ -1033,20 +1033,20 @@
   resolved "https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@lazy-lotto/tw-history-data@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/@lazy-lotto/tw-history-data/-/tw-history-data-1.0.5.tgz#9ded8689b8babdd5e9beec04480890558eabf57a"
-  integrity sha512-5WkWXlLSZsV3SILkg9xLcvcb8vgJV7Essq3VH4uzxEWabC9ZMfsj5D8WykuWA9WZltusjmkPjt3HZwbuLmMPbg==
+"@lazy-lotto/tw-history-data@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/@lazy-lotto/tw-history-data/-/tw-history-data-1.0.6.tgz#87bd93b18a9bf90cdbaddf7d7e14d212c9ea045e"
+  integrity sha512-rpowtm59ZV9u3XJ6L5V7GTUJtQLZZIqnw18QhwvLl2UugjZt03n2cWv6vXb3msl6jXuEXfTjhqDgPwwvS3g1HQ==
 
 "@lazy-lotto/types@^1.0.2":
   version "1.0.2"
   resolved "https://registry.npmjs.org/@lazy-lotto/types/-/types-1.0.2.tgz#ee79a75e3c834e3e9a89d5fd0b141efb75259fa2"
   integrity sha512-4LnsBli5Fh/6Oiir86U8SCxv0dtDtpH1tKvVGWRqcaWJsVcIsf8+/3aulqlEvoRCwkdGrDv9EZr0I3aybT9V3w==
 
-"@lazy-lotto/util@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@lazy-lotto/util/-/util-1.0.1.tgz#dfd63e5112f2a265f0ae93f6230ee31867c07ca8"
-  integrity sha512-iR3OTr/DpzT6ptqHOfDY1TofGlApZSRSK+ySXCEG78KzGeuuR71ipHIjQUdqvkmqRPyf1R+iCdqQN4S8WQW1Kw==
+"@lazy-lotto/util@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/@lazy-lotto/util/-/util-1.0.2.tgz#a94b7ef8e0d782e53c727fe86c9f983286f46258"
+  integrity sha512-noGyfGFq7KV8dnG/1MnNdKVuNr0lq/e0o292NpATuC1x+6iCXE6Yfplsu59q89RBbF8+2M8/5KcDGaoVfkBnVg==
   dependencies:
     "@lazy-lotto/types" "^1.0.2"
 
@@ -1199,10 +1199,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.45":
-  version "16.9.45"
-  resolved "https://registry.npmjs.org/@types/react/-/react-16.9.45.tgz#b43ccf3d8a3d2020e6a48c8c8492e5a4bc10f097"
-  integrity sha512-vv950slTF5UZ5eDOf13b8qC1SD4rTvkqg3HfaUKzr17U97oeJZAa+dUaIHn0QoOJflNTIt6Pem9MmapULs9dkA==
+"@types/react@*", "@types/react@^16.9.46":
+  version "16.9.46"
+  resolved "https://registry.npmjs.org/@types/react/-/react-16.9.46.tgz#f0326cd7adceda74148baa9bff6e918632f5069e"
+  integrity sha512-dbHzO3aAq1lB3jRQuNpuZ/mnu+CdD3H0WVaaBQA8LTT3S33xhVBUj232T8M3tAhSWJs/D/UqORYUlJNl/8VQZg==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"

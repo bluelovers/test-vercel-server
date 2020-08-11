@@ -30,9 +30,9 @@
   "dependencies": {
     "@bluelovers/string-natural-compare": "^1.1.2",
     "@demonovel/local-or-rebuild-file": "^1.0.3",
-    "@lazy-lotto/tw-history-data": "^1.0.5",
+    "@lazy-lotto/tw-history-data": "^1.0.6",
     "@lazy-lotto/types": "^1.0.2",
-    "@lazy-lotto/util": "^1.0.1",
+    "@lazy-lotto/util": "^1.0.2",
     "@lazy-react/next-mui-link": "^1.0.4",
     "@lazy-react/prefers-light-mode": "^1.0.6",
     "@lazy-react/react-suspense": "^1.0.2",
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@types/node": "^14.0.27",
-    "@types/react": "^16.9.45",
+    "@types/react": "^16.9.46",
     "@types/react-dom": "^16.9.8",
     "@types/tmp": "^0.2.0",
     "typescript": "next"
